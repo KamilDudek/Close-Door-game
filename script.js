@@ -60,7 +60,6 @@ const gameOver = status => {
 
 const randomChoreDoorGenerator = () => {
     const choreDoor = Math.floor(Math.random() * numClosedDoors);
-    console.log(choreDoor);
     if (choreDoor == 0) {
         openDoor1 = botDoorPath;
         openDoor2 = beachDoorPath;
